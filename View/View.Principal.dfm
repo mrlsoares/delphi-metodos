@@ -13,44 +13,26 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 15
   object Memo1: TMemo
-    Left = 288
-    Top = 40
-    Width = 321
-    Height = 377
-    Lines.Strings = (
-      'Memo1')
+    Left = 8
+    Top = 49
+    Width = 608
+    Height = 384
     TabOrder = 0
   end
   object Button1: TButton
-    Left = 16
-    Top = 127
+    Left = 255
+    Top = 18
     Width = 75
     Height = 25
-    Caption = 'Procedure'
+    Caption = 'Metodos'
     TabOrder = 1
-  end
-  object Button2: TButton
-    Left = 16
-    Top = 158
-    Width = 75
-    Height = 25
-    Caption = 'Function'
-    TabOrder = 2
+    OnClick = Button1Click
   end
   object Edit1: TEdit
     Left = 16
     Top = 19
-    Width = 121
+    Width = 233
     Height = 23
-    TabOrder = 3
-    Text = 'Edit1'
-  end
-  object Edit2: TEdit
-    Left = 16
-    Top = 48
-    Width = 121
-    Height = 23
-    TabOrder = 4
-    Text = 'Edit1'
+    TabOrder = 2
   end
 end
